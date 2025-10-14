@@ -1,2 +1,17 @@
-Categories: Inventory
+= Inventory & Ordering =
 
+- [[Inventory Database]]
+
+== Ordering ==
+- [[Ordering Form]]
+* [[Preferred Vendors]]
+* [[Reimbursement Guidleines]]
+
+== Forms ==
+
+* [[New Order Request Form]]
+* [[Inventory Update Form]]
+
+
+[[Category:Base]]
+[[Category:Resources]]
