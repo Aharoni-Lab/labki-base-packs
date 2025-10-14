@@ -1,6 +1,6 @@
 = Announcements =
 
-* <!-- Add announcement entries here (YYYY-MM-DD) -->
+* New publications! Grant awards! Upcoming talks!
 
 == Upcoming Events ==
 {| class="wikitable sortable"
