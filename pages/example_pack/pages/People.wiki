@@ -25,10 +25,10 @@
 |}
 
 == Lab Leadership ==
-* **PI(s):** (Add name / email)
-* **Project Scientist:** (Add name / email)
-* **Lab Manager(s):** (Add name)  
-* **Administrative Contact:** (Add name / email)
+* '''PI(s)''': (Add name / email)
+* '''Project Scientist''': (Add name / email)
+* '''Lab Manager(s)''': (Add name)  
+* '''Administrative Contact''': (Add name / email)
 
 == Onboarding & Offboarding ==
 * [[Onboarding Checklist]]
@@ -36,8 +36,8 @@
 * [[Safety Training]]
 
 == Communication ==
-* **Slack:**  (add slack URL)
-* **Lab calendar:** [[Calendar]]
+* '''Slack:'''  (add slack URL)
+* '''Lab calendar:''' [[Calendar]]
 
 == Notes ==
 
