@@ -1,3 +1,5 @@
+Categories: Resources
+
 = Knowledge Base =
 
 - General protocols

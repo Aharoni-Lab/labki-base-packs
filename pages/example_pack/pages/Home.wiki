@@ -1,3 +1,5 @@
+Categories: Overview
+
 = Example Pack Home =
 
 This is an example pack for LabkiPackManager.

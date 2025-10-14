@@ -1,3 +1,5 @@
+Categories: Announcements
+
 = Announcements =
 
 * <!-- Add announcement entries here (YYYY-MM-DD) -->

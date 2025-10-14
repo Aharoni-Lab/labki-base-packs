@@ -1,3 +1,5 @@
+Categories: Schedule
+
 = Scheduling & Communication =
 
 - Lab meeting schedule
