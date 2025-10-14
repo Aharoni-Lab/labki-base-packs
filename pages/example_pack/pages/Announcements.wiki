@@ -1,8 +1,15 @@
-Categories: Announcements
-
 = Announcements =
 
 * <!-- Add announcement entries here (YYYY-MM-DD) -->
-* 
 
-[[Category:Example]]
+== Upcoming Events ==
+{| class="wikitable sortable"
+! Date !! Event !! Location !! Notes
+|-
+| (YYYY-MM-DD) || (Add event) || (Add location) || (Add notes)
+|-
+| (YYYY-MM-DD) || (Add event) || (Add location) || (Add notes)
+|}
+
+
+[[Category:Base]]
