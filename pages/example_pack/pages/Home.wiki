@@ -2,7 +2,7 @@
 
 == Overview ==
 - Overview of lab. Research focus/mission. 
-- [[People]]
+* [[People]]
 
 == Quick links ==
 * [[Announcements]]
