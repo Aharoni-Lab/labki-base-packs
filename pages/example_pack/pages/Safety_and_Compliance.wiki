@@ -1,3 +1,5 @@
+Categories: Safety
+
 = Safety & Compliance =
 
 - Institutional safety requirements (EH&S, IACUC, IRB)
