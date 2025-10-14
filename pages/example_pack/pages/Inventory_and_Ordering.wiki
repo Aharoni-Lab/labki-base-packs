@@ -1,9 +1,11 @@
 = Inventory & Ordering =
 
-- [[Inventory Database]]
+== Inventory ==
+* [[Inventory Database]]
+* [[Inventory Update Form]]
 
 == Ordering ==
-- [[Ordering Form]]
+* [[New Order Request Form]]
 * [[Preferred Vendors]]
 * [[Reimbursement Guidleines]]
 
