@@ -1,0 +1,39 @@
+<noinclude>
+This form allows you to edit the People page.
+</noinclude>
+{{{for template|People}}}
+
+== Current Members ==
+{{{field|CurrentMembers|input type=textarea|rows=8|default=
+|-
+| (Add name)|| (Add role) || (Add project) || (Add email) || [[File:(Upload photo)]]
+}}}
+
+== Alumni ==
+{{{field|Alumni|input type=textarea|rows=8|default=
+|-
+| (Add name) || (Add role) || (Add years) || (Add role and location of current position)
+}}}
+
+== Lab Leadership ==
+; PIs
+{{{field|PIs|input type=text|size=80}}}
+; Project Scientist
+{{{field|ProjectScientist|input type=text|size=80}}}
+; Lab Managers
+{{{field|LabManagers|input type=text|size=80}}}
+; Administrative Contact
+{{{field|AdminContact|input type=text|size=80}}}
+
+== Communication ==
+; Slack
+{{{field|Slack|input type=text|size=80}}}
+; Calendar
+{{{field|Calendar|input type=text|size=40}}}
+
+== Notes ==
+{{{field|Notes|input type=textarea|rows=5|default=}}}
+
+{{{end template}}}
+
+{{{standard input|save}}} {{{standard input|cancel}}}
