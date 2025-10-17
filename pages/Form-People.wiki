@@ -1,13 +1,13 @@
 <noinclude>
-This is the "Member" form.
+This is the "People" form.
 To create a page with this form, enter the page name below;
 if a page with that name already exists, you will be sent to a form to edit that page.
 
-{{#forminput:form=Member|autocomplete on category=Member}}
+{{#forminput:form=People|autocomplete on category=People}}
 
 </noinclude><includeonly>
 <div id="wikiPreview" style="display: none; padding-bottom: 25px; margin-bottom: 25px; border-bottom: 1px solid #AAAAAA;"></div>
-{{{for template|Member}}}
+{{{for template|People}}}
 {| class="formtable"
 ! Full Name: 
 | {{{field|Full Name|input type=text}}}
