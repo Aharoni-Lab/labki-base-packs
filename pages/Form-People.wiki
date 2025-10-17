@@ -1,19 +1,27 @@
 <noinclude>
 This form allows you to edit the People page.
 </noinclude>
+
 {{{for template|People}}}
 
 == Current Members ==
-{{{field|CurrentMembers|input type=textarea|rows=8|default=
+{{{repeat start|CurrentMembers}}}
 |-
-| (Add name)|| (Add role) || (Add project) || (Add email) || [[File:(Upload photo)]]
-}}}
+| {{{field|Name|input type=text|size=20}}}
+| {{{field|Role|input type=text|size=20}}}
+| {{{field|Project|input type=text|size=30}}}
+| {{{field|Contact|input type=text|size=30}}}
+| {{{field|Photo|input type=text|size=20}}}
+{{{repeat end}}}
 
 == Alumni ==
-{{{field|Alumni|input type=textarea|rows=8|default=
+{{{repeat start|Alumni}}}
 |-
-| (Add name) || (Add role) || (Add years) || (Add role and location of current position)
-}}}
+| {{{field|Name|input type=text|size=20}}}
+| {{{field|Role|input type=text|size=20}}}
+| {{{field|Years|input type=text|size=10}}}
+| {{{field|CurrentPosition|input type=text|size=30}}}
+{{{repeat end}}}
 
 == Lab Leadership ==
 ; PIs
@@ -32,7 +40,7 @@ This form allows you to edit the People page.
 {{{field|Calendar|input type=text|size=40}}}
 
 == Notes ==
-{{{field|Notes|input type=textarea|rows=5|default=}}}
+{{{field|Notes|input type=textarea|rows=5}}}
 
 {{{end template}}}
 
