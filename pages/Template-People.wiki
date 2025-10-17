@@ -1,6 +1,13 @@
-<!-- Template:LabMember -->
-{| class="wikitable"
-! Name !! Email !! Role !! Project !! Other Info
-|-
-| {{{Name|}}} || {{{Email|}}} || {{{Role|}}} || {{{Project|}}} || {{{OtherInfo|}}}
-|}
+{{Member
+|Full Name=
+|Email=
+|Homepage=
+|Projects=
+|UID=
+|ORCID=
+|eRA=
+|Twitter=
+|Fediverse=
+|Github=
+|LabKeys=
+}}
