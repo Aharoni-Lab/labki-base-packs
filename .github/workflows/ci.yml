@@ -24,7 +24,12 @@ jobs:
           python-version: '3.11'
 
       - name: Install Labki validator
-        run: pip install ./tools-cache
+        run: |
+          pip install ./tools-cache
+          # Copy schema files into installed package for runtime discovery
+          site=$(python -c "import site; print(site.getsitepackages()[0])")
+          mkdir -p "$site/labki_packs_tools/schema"
+          cp -r tools-cache/schema/* "$site/labki_packs_tools/schema/"
 
       - name: Validate manifest
         run: |
