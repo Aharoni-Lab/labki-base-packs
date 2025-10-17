@@ -1,3 +1,5 @@
+[![Validate content packs](https://github.com/Aharoni-Lab/labki-base-packs/workflows/Validate%20content%20packs/badge.svg)](https://github.com/Aharoni-Lab/labki-base-packs/actions/workflows/validate.yml)
+
 # labki-packs (content) – temporary docs
 
 These documents are intended for the `labki-packs` content repository. They are staged here temporarily and should be moved there.
