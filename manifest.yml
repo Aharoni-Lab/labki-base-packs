@@ -30,11 +30,11 @@ pages:
   People:
     file: pages/People.wiki
     last_updated: "2025-10-14T00:00:00Z"
-  Template:People:
-    file: pages/Template-People.wiki
+  Template:Person:
+    file: pages/Template-Person.wiki
     last_updated: "2025-10-14T00:00:00Z"
-  Form:People:
-    file: pages/Form-People.wiki
+  Form:Person:
+    file: pages/Form-Person.wiki
     last_updated: "2025-10-14T00:00:00Z"
 
 packs:
@@ -51,8 +51,8 @@ packs:
     version: 0.1.0
     pages:
       - People
-      - Template:People
-      - Form:People
+      - Template:Person
+      - Form:Person
     depends_on: []
       
   Lab Operations:
