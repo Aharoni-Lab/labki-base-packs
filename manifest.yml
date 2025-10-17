@@ -27,6 +27,15 @@ pages:
   Lab Culture:
     file: pages/Lab_Culture.wiki
     last_updated: "2025-10-14T00:00:00Z"
+  People:
+    file: pages/People.wiki
+    last_updated: "2025-10-14T00:00:00Z"
+  Template-People:
+    file: pages/Template-People.wiki
+    last_updated: "2025-10-14T00:00:00Z"
+  Form-People:
+    file: pages/Form-People.wiki
+    last_updated: "2025-10-14T00:00:00Z"
 
 packs:
   Home:
@@ -48,4 +57,7 @@ packs:
       - Scheduling & Communication
       - Professional Development
       - Lab Culture
+      - People
+      - Template-People
+      - Form-People
     depends_on: []
