@@ -8,20 +8,20 @@
 ! Project / Focus
 ! Contact
 ! Photo
-{{{CurrentMembers|}}}
+{{{CurrentMembers}}}
 |}
 
 == Alumni ==
 {| class="wikitable"
 ! Name !! Role !! Years !! Current Position
-{{{Alumni|}}}
+{{{Alumni}}}
 |}
 
 == Lab Leadership ==
-* '''PI(s)''': {{{PIs|}}}
-* '''Project Scientist''': {{{ProjectScientist|}}}
-* '''Lab Manager(s)''': {{{LabManagers|}}}
-* '''Administrative Contact''': {{{AdminContact|}}}
+* '''PI(s)''': {{{PIs}}}
+* '''Project Scientist''': {{{ProjectScientist}}}
+* '''Lab Manager(s)''': {{{LabManagers}}}
+* '''Administrative Contact''': {{{AdminContact}}}
 
 == Onboarding & Offboarding ==
 * [[Onboarding Checklist]]
@@ -29,11 +29,11 @@
 * [[Safety Training]]
 
 == Communication ==
-* '''Slack:''' {{{Slack|}}}
+* '''Slack:''' {{{Slack}}}
 * '''Lab calendar:''' [[{{{Calendar|Calendar}}}]]
 
 == Notes ==
-{{{Notes|}}}
+{{{Notes}}}
 
 [[Category:Base]]
 </includeonly>
