@@ -3,37 +3,37 @@ last_updated: "2025-10-14T00:00:00Z"
 name: "Lab Operations"
 
 pages:
-  Home:
+  - name: Home
     file: pages/Home.wiki
     last_updated: "2025-10-14T00:00:00Z"
-  Announcements:
+  - name: Announcements
     file: pages/Announcements.wiki
     last_updated: "2025-10-14T00:00:00Z"
-  Knowledge Base:
+  - name: Knowledge Base
     file: pages/Knowledge_Base.wiki
     last_updated: "2025-10-14T00:00:00Z"
-  Safety & Compliance:
+  - name: Safety & Compliance
     file: pages/Safety_and_Compliance.wiki
     last_updated: "2025-10-14T00:00:00Z"
-  Data Management:
+  - name: Data Management
     file: pages/Data_Management.wiki
     last_updated: "2025-10-14T00:00:00Z"
-  Scheduling & Communication:
+  - name: Scheduling & Communication
     file: pages/Scheduling_and_Communication.wiki
     last_updated: "2025-10-14T00:00:00Z"
-  Professional Development:
+  - name: Professional Development
     file: pages/Professional_Development.wiki
     last_updated: "2025-10-14T00:00:00Z"
-  Lab Culture:
+  - name: Lab Culture
     file: pages/Lab_Culture.wiki
     last_updated: "2025-10-14T00:00:00Z"
-  People:
+  - name: People
     file: pages/People.wiki
     last_updated: "2025-10-14T00:00:00Z"
-  Template:People:
+  - name: Template:People
     file: pages/Template-People.wiki
     last_updated: "2025-10-14T00:00:00Z"
-  Form:People:
+  - name: Form:People
     file: pages/Form-People.wiki
     last_updated: "2025-10-14T00:00:00Z"
 
