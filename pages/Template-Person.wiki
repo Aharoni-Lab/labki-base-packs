@@ -1,4 +1,4 @@
-<!-- Template:People -->
+<!-- Template:Person -->
 {{#set:
 |Name={{Name}}
 |Email={{Email}}
