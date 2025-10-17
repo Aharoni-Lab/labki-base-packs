@@ -29,11 +29,18 @@ pages:
     last_updated: "2025-10-14T00:00:00Z"
 
 packs:
+  Home:
+    description: Home page
+    version: 0.1.0
+    pages:
+      - Home
+    depends_on:
+      - Lab Operations
+      
   Lab Operations:
     description: Base pages for lab operations
     version: 0.1.0
     pages:
-      - Home
       - Announcements
       - Knowledge Base
       - Safety & Compliance
