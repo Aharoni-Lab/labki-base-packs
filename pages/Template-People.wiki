@@ -1,4 +1,4 @@
-<!-- Template:Person -->
+<!-- Template:People -->
 {{#set:
 |Name={{Name}}
 |Email={{Email}}
@@ -6,3 +6,5 @@
 |Project={{Project}}
 |Notes={{Notes}}
 }}
+
+[[Category:People]]
