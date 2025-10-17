@@ -38,6 +38,8 @@
 == Communication ==
 * '''Slack:'''  (add slack URL)
 * '''Lab calendar:''' [[Calendar]]
+[[Special:FormEdit/People/Main|Edit People Page]]
+
 
 == Notes ==
 
