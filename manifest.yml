@@ -30,10 +30,10 @@ pages:
   People:
     file: pages/People.wiki
     last_updated: "2025-10-14T00:00:00Z"
-  Template-People:
+  Template:People:
     file: pages/Template-People.wiki
     last_updated: "2025-10-14T00:00:00Z"
-  Form-People:
+  Form:People:
     file: pages/Form-People.wiki
     last_updated: "2025-10-14T00:00:00Z"
 
@@ -51,8 +51,8 @@ packs:
     version: 0.1.0
     pages:
       - People
-      - Template-People
-      - Form-People
+      - Template:People
+      - Form:People
     depends_on: []
       
   Lab Operations:
@@ -67,6 +67,6 @@ packs:
       - Professional Development
       - Lab Culture
       - People
-      - Template-People
-      - Form-People
+      - Template:People
+      - Form:People
     depends_on: []
