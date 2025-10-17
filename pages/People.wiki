@@ -1,47 +1,15 @@
-= People =
+== Current Lab Members ==
 
-== Current Members ==
-{| class="wikitable sortable"
-! Name
-! Role
-! Project / Focus
-! Contact
-! Photo
-|-
-| (Add name)|| (Add role) || (Add project) || (Add email) || [[File:(Upload photo)]]
-|-
-| (Add name)|| (Add role) || (Add project) || (Add email) || [[File:(Upload photo)]]
-|-
-| (Add name)|| (Add role) || (Add project) || (Add email) || [[File:(Upload photo)]]
-|}
-
-== Alumni ==
 {| class="wikitable"
-! Name !! Role !! Years !! Current Position
-|-
-| (Add name) || (Add role) || (Add years) || (Add role and location of current position)
-|-
-| (Add name) || (Add role) || (Add years) || (Add role and location of current position)
+! Name !! Email !! Role !! Project !! Notes
+{{#ask: [[Category:People]]
+ | ?Name
+ | ?Email
+ | ?Role
+ | ?Project
+ | ?Notes
+ | mainlabel=- 
+ | format=table
+ | headers=plain
+}}
 |}
-
-== Lab Leadership ==
-* '''PI(s)''': (Add name / email)
-* '''Project Scientist''': (Add name / email)
-* '''Lab Manager(s)''': (Add name)  
-* '''Administrative Contact''': (Add name / email)
-
-== Onboarding & Offboarding ==
-* [[Onboarding Checklist]]
-* [[Offboarding Procedures]]
-* [[Safety Training]]
-
-== Communication ==
-* '''Slack:'''  (add slack URL)
-* '''Lab calendar:''' [[Calendar]]
-[[Special:FormEdit/People/Main|Edit People Page]]
-
-
-== Notes ==
-
-
-[[Category:Base]]
