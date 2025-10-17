@@ -1,47 +1,12 @@
 <noinclude>
-This form allows you to edit the People page.
+This form allows you to add lab members to the People page.
 </noinclude>
 
-{{{for template|People}}}
+{{#forminput:form=LabMemberForm}}
 
-== Current Members ==
-{{{repeat start|CurrentMembers}}}
+{| class="wikitable"
 |-
-| {{{field|Name|input type=text|size=20}}}
-| {{{field|Role|input type=text|size=20}}}
-| {{{field|Project|input type=text|size=30}}}
-| {{{field|Contact|input type=text|size=30}}}
-| {{{field|Photo|input type=text|size=20}}}
-{{{repeat end}}}
-
-== Alumni ==
-{{{repeat start|Alumni}}}
+! Name !! Email !! Role !! Project !! Other Info
 |-
-| {{{field|Name|input type=text|size=20}}}
-| {{{field|Role|input type=text|size=20}}}
-| {{{field|Years|input type=text|size=10}}}
-| {{{field|CurrentPosition|input type=text|size=30}}}
-{{{repeat end}}}
-
-== Lab Leadership ==
-; PIs
-{{{field|PIs|input type=text|size=80}}}
-; Project Scientist
-{{{field|ProjectScientist|input type=text|size=80}}}
-; Lab Managers
-{{{field|LabManagers|input type=text|size=80}}}
-; Administrative Contact
-{{{field|AdminContact|input type=text|size=80}}}
-
-== Communication ==
-; Slack
-{{{field|Slack|input type=text|size=80}}}
-; Calendar
-{{{field|Calendar|input type=text|size=40}}}
-
-== Notes ==
-{{{field|Notes|input type=textarea|rows=5}}}
-
-{{{end template}}}
-
-{{{standard input|save}}} {{{standard input|cancel}}}
+| {{{field|Name}}} || {{{field|Email}}} || {{{field|Role}}} || {{{field|Project}}} || {{{field|OtherInfo}}}
+|}
