@@ -1,12 +1,50 @@
 <noinclude>
-This form allows you to add lab members to the People page.
-</noinclude>
+This is the "Member" form.
+To create a page with this form, enter the page name below;
+if a page with that name already exists, you will be sent to a form to edit that page.
 
-{{#forminput:form=LabMemberForm}}
+{{#forminput:form=Member|autocomplete on category=Member}}
 
-{| class="wikitable"
+</noinclude><includeonly>
+<div id="wikiPreview" style="display: none; padding-bottom: 25px; margin-bottom: 25px; border-bottom: 1px solid #AAAAAA;"></div>
+{{{for template|Member}}}
+{| class="formtable"
+! Full Name: 
+| {{{field|Full Name|input type=text}}}
 |-
-! Name !! Email !! Role !! Project !! Other Info
+! Email: <br><p class="pfFieldDescription" style="font-size:0.7em; color:gray;">username :)</p>
+| {{{field|Email|input type=text}}}
 |-
-| {{{field|Name}}} || {{{field|Email}}} || {{{field|Role}}} || {{{field|Project}}} || {{{field|OtherInfo}}}
+! Homepage: 
+| {{{field|Homepage|input type=text}}}
+|-
+! Projects: 
+| {{{field|Projects|input type=tokens|values from category=Project}}}
+|-
+! UID: 
+| {{{field|UID|input type=text}}}
+|-
+! ORCID: 
+| {{{field|ORCID|input type=text}}}
+|-
+! eRA Commons ID: <br><p class="pfFieldDescription" style="font-size:0.7em; color:gray;">Username used to log in, not the numeric "Person ID" in your profile</p>
+| {{{field|eRA|input type=text}}}
+|-
+! Twitter: <br><p class="pfFieldDescription" style="font-size:0.7em; color:gray;">(without the @)</p>
+| {{{field|Twitter|input type=text}}}
+|-
+! Fediverse: <br><p class="pfFieldDescription" style="font-size:0.7em; color:gray;">Full URL to profile(s), comma separated</p>
+| {{{field|Fediverse|input type=tokens}}}
+|-
+! Github: <br><p class="pfFieldDescription" style="font-size:0.7em; color:gray;">username :)</p>
+| {{{field|Github|input type=text}}}
+|-
+! Lab Keys: <br><p class="pfFieldDescription" style="font-size:0.7em; color:gray;">Select the keys for lab rooms</p>
+| {{{field|LabKeys|input type=checkboxes|values from query={{#ask: [[Category:Lab Room]]}}}}}
 |}
+{{{end template}}}
+
+'''Free text:'''
+
+{{{standard input|free text|rows=10}}}
+</includeonly>
