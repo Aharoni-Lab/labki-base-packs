@@ -1,13 +1,8 @@
-{{People
-|Full Name=
-|Email=
-|Homepage=
-|Projects=
-|UID=
-|ORCID=
-|eRA=
-|Twitter=
-|Fediverse=
-|Github=
-|LabKeys=
+<!-- Template:Person -->
+{{#set:
+|Name={{Name}}
+|Email={{Email}}
+|Role={{Role}}
+|Project={{Project}}
+|Notes={{Notes}}
 }}
