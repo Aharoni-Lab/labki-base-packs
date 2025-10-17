@@ -45,6 +45,15 @@ packs:
       - Home
     depends_on:
       - Lab Operations
+
+  People:
+    description: Team members
+    version: 0.1.0
+    pages:
+      - People
+      - Template-People
+      - Form-People
+    depends_on: []
       
   Lab Operations:
     description: Base pages for lab operations
