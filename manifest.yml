@@ -4,13 +4,13 @@ name: "Labki Base Packs"
 
 pages:
   Template:Member:
-    file: pages/Template:Member.wiki
+    file: pages/template-member.wiki
     last_updated: "2025-11-12T00:00:00Z"
   Category:Member:
-    file: pages/Category:Member.wiki
+    file: pages/category-member.wiki
     last_updated: "2025-11-12T00:00:00Z"
   Form:Member:
-    file: pages/Form:Member.wiki
+    file: pages/form-member.wiki
     last_updated: "2025-11-12T00:00:00Z"
 
 packs:
