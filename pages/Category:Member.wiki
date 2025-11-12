@@ -1,0 +1,95 @@
+<PageSchema>
+  <pageforms_Form name="Member">
+    <standardInputs inputFreeText="1" freeTextLabel="Free text"/>
+  </pageforms_Form>
+  <Template name="Member" format="standard">
+    <pageforms_TemplateDetails/>
+    <semanticmediawiki_ConnectingProperty name=""/>
+    <Field name="Full Name">
+      <pageforms_FormInput>
+        <InputType>text</InputType>
+      </pageforms_FormInput>
+      <semanticmediawiki_Property name="Full Name">
+        <Type>Text</Type>
+      </semanticmediawiki_Property>
+    </Field>
+    <Field name="Email">
+      <pageforms_FormInput>
+        <InputType>text</InputType>
+        <Description>username :)</Description>
+      </pageforms_FormInput>
+      <semanticmediawiki_Property name="Email">
+        <Type>Text</Type>
+      </semanticmediawiki_Property>
+    </Field>
+    <Field name="Homepage">
+      <pageforms_FormInput>
+        <InputType>text</InputType>
+      </pageforms_FormInput>
+      <semanticmediawiki_Property name="Has URL">
+        <Type>URL</Type>
+      </semanticmediawiki_Property>
+    </Field>
+    <Field name="Projects" list="list">
+      <pageforms_FormInput>
+        <InputType>tokens</InputType>
+        <Parameter name="values from category">Project</Parameter>
+      </pageforms_FormInput>
+      <semanticmediawiki_Property name="Contributes To">
+        <Type>Page</Type>
+      </semanticmediawiki_Property>
+    </Field>
+    <Field name="ORCID">
+      <pageforms_FormInput>
+        <InputType>text</InputType>
+      </pageforms_FormInput>
+      <semanticmediawiki_Property name="ORCID">
+        <Type>External identifier</Type>
+      </semanticmediawiki_Property>
+    </Field>
+    <Field name="eRA">
+      <Label>eRA Commons ID</Label>
+      <pageforms_FormInput>
+        <InputType>text</InputType>
+        <Description>Username used to log in, not the numeric "Person ID" in your profile</Description>
+      </pageforms_FormInput>
+      <semanticmediawiki_Property name="eRA ID">
+        <Type>Text</Type>
+      </semanticmediawiki_Property>
+    </Field>
+    <Field name="Twitter">
+      <pageforms_FormInput>
+        <InputType>text</InputType>
+        <Description>(without the @)</Description>
+      </pageforms_FormInput>
+      <semanticmediawiki_Property name="Twitter Handle">
+        <Type>External identifier</Type>
+      </semanticmediawiki_Property>
+    </Field>
+    <Field name="Fediverse" list="list">
+      <pageforms_FormInput>
+        <InputType>tokens</InputType>
+        <Description>Full URL to profile(s), comma separated</Description>
+      </pageforms_FormInput>
+      <semanticmediawiki_Property name="Fediverse Handle">
+        <Type>URL</Type>
+      </semanticmediawiki_Property>
+    </Field>
+    <Field name="Github">
+      <pageforms_FormInput>
+        <InputType>text</InputType>
+        <Description>username :)</Description>
+      </pageforms_FormInput>
+      <semanticmediawiki_Property name="Github Handle">
+        <Type>External identifier</Type>
+      </semanticmediawiki_Property>
+    </Field>
+
+  </Template>
+</PageSchema>
+
+A Lab Member!!!!
+
+See also [[Lab Members]]
+
+[[Category:Person]]
