@@ -1,69 +1,24 @@
-schema_version: "1.0.0"
-last_updated: "2025-10-14T00:00:00Z"
-name: "Lab Operations"
+﻿schema_version: "1.0.0"
+last_updated: "2025-11-12T00:00:00Z"
+name: "Labki Base Packs"
 
 pages:
-  Home:
-    file: pages/Home.wiki
-    last_updated: "2025-10-14T00:00:00Z"
-  Announcements:
-    file: pages/Announcements.wiki
-    last_updated: "2025-10-14T00:00:00Z"
-  Knowledge Base:
-    file: pages/Knowledge_Base.wiki
-    last_updated: "2025-10-14T00:00:00Z"
-  Safety & Compliance:
-    file: pages/Safety_and_Compliance.wiki
-    last_updated: "2025-10-14T00:00:00Z"
-  Data Management:
-    file: pages/Data_Management.wiki
-    last_updated: "2025-10-14T00:00:00Z"
-  Scheduling & Communication:
-    file: pages/Scheduling_and_Communication.wiki
-    last_updated: "2025-10-14T00:00:00Z"
-  Professional Development:
-    file: pages/Professional_Development.wiki
-    last_updated: "2025-10-14T00:00:00Z"
-  Lab Culture:
-    file: pages/Lab_Culture.wiki
-    last_updated: "2025-10-14T00:00:00Z"
-  People:
-    file: pages/People.wiki
-    last_updated: "2025-10-14T00:00:00Z"
-  Template:Person:
-    file: pages/Template-Person.wiki
-    last_updated: "2025-10-14T00:00:00Z"
-  Form:Person:
-    file: pages/Form-Person.wiki
-    last_updated: "2025-10-14T00:00:00Z"
+  Template:Member:
+    file: pages/Template:Member.wiki
+    last_updated: "2025-11-12T00:00:00Z"
+  Category:Member:
+    file: pages/Category:Member.wiki
+    last_updated: "2025-11-12T00:00:00Z"
+  Form:Member:
+    file: pages/Form:Member.wiki
+    last_updated: "2025-11-12T00:00:00Z"
 
 packs:
-  Home:
-    description: Home page
+  Member Infrastructure:
+    description: Semantic MediaWiki and Page Forms templates for lab member/person pages
     version: 0.1.0
     pages:
-      - Home
-    depends_on:
-      - Lab Operations
-
-  People:
-    description: Team members
-    version: 0.1.0
-    pages:
-      - People
-      - Template:Person
-      - Form:Person
-    depends_on: []
-      
-  Lab Operations:
-    description: Base pages for lab operations
-    version: 0.1.0
-    pages:
-      - Announcements
-      - Knowledge Base
-      - Safety & Compliance
-      - Data Management
-      - Scheduling & Communication
-      - Professional Development
-      - Lab Culture
+      - Template:Member
+      - Category:Member
+      - Form:Member
     depends_on: []

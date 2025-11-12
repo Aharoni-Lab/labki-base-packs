@@ -1,0 +1,42 @@
+<noinclude>
+{{#template_params:Full Name (property=Full Name)|Email (property=Email)|Homepage (property=Has URL)|Projects (list;property=Contributes To)|UID (property=UID)|ORCID (property=ORCID)|eRA (label=eRA Commons ID;property=eRA ID)|Twitter (property=Twitter Handle)|Fediverse (list;property=Fediverse Handle)|Github (property=Github Handle)|LabKeys (list;property=Lab Keys)}}
+</noinclude><includeonly>{{#set:Contributes To={{#ask:[[Has Contributor::{{SUBJECTPAGENAME}}]]|[[Category:Project]]|?=#}}|+sep=,}}
+{{#set:Contributes To={{{Projects|}}}|+sep=,}}
+{| class="wikitable"
+! Full Name
+| [[Full Name::{{{Full Name|}}}]]
+|-
+! Email
+| [[Email::{{{Email|}}}]]
+|-
+! Homepage
+| [[Has URL::{{{Homepage|}}}]]
+|-
+! Projects
+| {{#show:{{SUBJECTPAGENAME}}|?Contributes To }}
+|-
+! UID
+| [[UID::{{{UID|}}}]]
+|-
+! ORCID
+| [[ORCID::{{{ORCID|}}}]]
+|-
+! eRA Commons ID
+| [[eRA ID::{{{eRA|}}}]]
+|-
+! Twitter
+| [[Twitter Handle::{{{Twitter|}}}]]
+|-
+! Fediverse
+| {{#arraymap:{{{Fediverse|}}}|,|x|[[Fediverse Handle::x]]}}
+
+|-
+! Github
+| [[Github Handle::{{{Github|}}}]]
+|-
+! Lab Keys
+| {{#arraymap:{{{LabKeys|}}}|,|x|[[Lab Keys::x]]}}
+|}
+
+[[Category:Member]]
+</includeonly>
